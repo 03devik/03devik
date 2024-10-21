@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user registration.css">
+    <script src="user-registration.js"></script>
+    <title>User Registration</title>
+</head>
+<body>
+    <form action="/action_page.php">
+    <div class="wrapper">  
+    <center><h1>Student Registration Form</h1></center>
+    <p>Please fill the following details</p>
+   <div>
+    <label>First Name</label><br><br>
+    <input type="text" name="first name" placeholder="Enter First Name" required /><br><br>
+    <label>Last Name</label><br><br>
+    <input type="text" name="last name" placeholder="Enter Last Name"><br><br>
+    <label>Email</label><br><br>
+    <input type="text" name="Email" placeholder="Enter Email"><br><br>   
+    <label>Gender</label><br><br>
+    <input type="radio" value="Female" name="gender" checked>Female
+    <input type="radio" value="Male" name="gender">Male
+    <input type="radio" value="Others" name="gender">Others<br><br>
+    <label>Phone Number</label><br><br>
+    <input type="number" name="country code" value="+91"><br><br>
+    <label>Birth Date</label><br><br>
+    <input type="date" placeholder="Enter birth date" required /><br><br>
+    <div class="input-box address">
+    <label>Address</label><br><br>
+    <input type="text" placeholder="Enter Address" required />
+    <input type="text" placeholder="Enter State" required />
+    <input type="text" placeholder="Enter your city" required />
+    <div class="column"><br>
+        <input type="text" placeholder="Enter your region" required />
+        <input type="number" placeholder="Enter Pin code" required />
+    </div>
+    <div>
+        <div class="column">
+            <div class="select-box">
+                <label>Course</label><br><br>
+              <select>
+                <option hidden>Course</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>C</option>
+                <option>C++</option>
+                <option>Artificial Intelligence</option>
+                <option>Machine Learning</option> 
+              </select>
+    </div><br>
+    <label>Password</label><br>
+    <input type="password" name="password" class="password" placeholder="Enter password">
+    <button type="submit">Submit</button>
+    </form>
+    </div>
+    </body>
+</html>
