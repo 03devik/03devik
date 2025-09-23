@@ -1,0 +1,19 @@
+## Finding whether the given number is even or odd: ##
+import java.util.*;
+
+import java.util.Scanner;
+class Main{
+    public static void main(String []args){
+        int n;
+        System.out.println("Enter any number:");
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+        if((n|1)>n){
+            System.out.println("even");
+        }
+        else{
+            System.out.println("odd");
+        }
+        
+    }
+}
